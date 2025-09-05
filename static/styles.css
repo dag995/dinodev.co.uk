@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'PP Pangram Sans';
+  src: url('./font/PPPangramSans-Bold.eot');
+  src: url('./font/PPPangramSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PPPangramSans-Bold.woff2') format('woff2'),
+      url('./font/PPPangramSans-Bold.woff') format('woff'),
+      url('./font/PPPangramSans-Bold.ttf') format('truetype'),
+      url('./font/PPPangramSans-Bold.svg#PPPangramSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: normal;
+}
+
+@font-face {
+  font-family: 'PP Pangram Sans';
+  src: url('./font/PPPangramSans-Regular.eot');
+  src: url('./font/PPPangramSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/PPPangramSans-Regular.woff2') format('woff2'),
+      url('./font/PPPangramSans-Regular.woff') format('woff'),
+      url('./font/PPPangramSans-Regular.ttf') format('truetype'),
+      url('./font/PPPangramSans-Regular.svg#PPPangramSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: normal;
+}
+
+@font-face {
+  font-family: 'PP Right Grotesk Tall';
+  src: url('./font/PPRightGrotesk-TallMedium.eot');
+  src: url('./font/PPRightGrotesk-TallMedium.eot?#iefix') format('embedded-opentype'),
+      url('./font/PPRightGrotesk-TallMedium.woff2') format('woff2'),
+      url('./font/PPRightGrotesk-TallMedium.woff') format('woff'),
+      url('./font/PPRightGrotesk-TallMedium.ttf') format('truetype'),
+      url('./font/PPRightGrotesk-TallMedium.svg#PPRightGrotesk-TallMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: normal;
+}
+
+:root :where(body),
+body {
+	background-color: #FFF;
+  color:var(--theme-color);
+	font-weight: 400;
+	font-size: 1em;
+	font-family: "PP Pangram Sans";
+	font-smooth: always;
+	outline: transparent;
+	line-height: normal;
+  margin: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color:var(--theme-color);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'PP Right Grotesk Tall';
+  font-weight:500;
+  line-height:0.8em;
+  color:var(--theme-color);
+}
+
+h1 {
+  font-size: 4em;
+  color: var(--theme-color);
+}
+
+.globalWrap {
+  padding:80px 0 0;
+}
+
+.container {
+  max-width:1240px;
+  padding:20px;
+  margin:0 auto;
+  min-height:70vh;
+}
+
+h1 {
+  font-size: 4em;
+  color: var(--theme-color);
+}
+
+.introTitle h1 {
+  font-family: "PP Pangram Sans";
+  font-size: 1.4em;
+  font-weight: 600;
+  color:var(--theme-color);
+}
+
+h2 {
+  font-size: 3.4em;
+}
+
+h3 {
+  font-size: 2.6em;
+}
+
+h4 {
+  font-size: 2em;
+}
+h5 {
+  font-size: 1.6em;
+}
+
+h1 span {
+  color: var(--theme-red);
+}
+
+div {
+  display: block;
+}
+
+img {
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+.d-none {
+  display: none;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+select,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+textarea {
+  margin-bottom: 30px;
+}
+
+select {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 6px;
+}

@@ -1,0 +1,118 @@
+  .sidebar-menu {
+    padding:2px;
+    padding:10px;
+    border-right:solid 1px #CCC;
+    height:100%;
+    position: relative;
+  }
+  .sidebar-menu .menu_show_hide {
+    position: relative;
+    position: absolute;
+    top:0;
+    z-index:9999;
+    width:36px;
+    height:36px;
+    display: block;
+    margin:0;
+    padding:6px;
+    box-sizing: border-box;
+  }
+  .sidebar-menu li .menu_show_hide { 
+    left:0;
+  }
+  .sidebar-menu li li .menu_show_hide { 
+    left:20px;
+  }
+  .sidebar-menu li li li .menu_show_hide { 
+    left:40px;
+  }
+  .sidebar-menu li li li li .menu_show_hide { 
+    left:60px;
+  }
+  .sidebar-menu .menu_show_hide svg {
+    margin:0;
+  }
+  .sidebar-menu .menu_show_hide.open svg {
+    transform: rotate(90deg);
+  }
+  .sidebar-menu .menu_show_hide.selected {
+    background:transparent;
+  }
+  .sidebar-menu .menu_show_hide.selected svg {
+    fill:#FFF;
+  }
+  .sidebar-menu ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    position: relative;
+  }
+  .sidebar-menu ul li {
+    font-size:0.95em;
+    position: relative;
+  }
+  .sidebar-menu li a {
+    display:flex;
+    border-radius:3px;
+    width:100%;
+    padding:6px 0 6px 26px;
+    margin:0;
+    align-items: center;
+  }
+  .sidebar-menu li a {
+    padding-left:26px;
+  }
+  .sidebar-menu li li a {
+    padding-left:46px;
+  }
+  .sidebar-menu li li li a {
+    padding-left:66px;
+  }
+  .sidebar-menu li li li li a {
+    padding-left:86px;
+  }
+  .sidebar-menu li li li li li a {
+    padding-left:106px;
+  }
+  .sidebar-menu li a {
+    text-decoration: none;
+  }
+  .sidebar-menu li a svg {
+    margin-right:6px;
+  }
+  .sidebar-menu li a.selected {
+    background-color: #007cba;
+    color:#FFF;
+  }
+  .sidebar-menu li a.selected svg {
+    fill:#FFF;
+  }
+  .column .add_block_wrap {
+  margin-top:0!important;
+}
+.group .add_block,
+.column .add_block {
+  border-radius:3px;
+  background:transparent!important;
+  background-color:transparent!important;
+  color:#000!important;
+  border:solid 1px #CCC;
+  font-size:2em;
+  display:block;
+  text-align:center;
+  width:100%;
+  padding:1px 10px;
+}
+
+.settings_bar .selectList .selected svg,
+.settings_bar .selectList .selected svg path,
+.settings_bar .selectList .selected .svg-wrap svg,
+.settings_bar .selectList .selected .svg-wrap path {
+  fill:#FFF;
+}
+
+textarea.heading.heading-h1 { font-size:3em; }
+textarea.heading.heading-h2 { font-size:2.6em; }
+textarea.heading.heading-h3 { font-size:2.2em; }
+textarea.heading.heading-h4 { font-size:1.8em; }
+textarea.heading.heading-h5 { font-size:1.4em; }
