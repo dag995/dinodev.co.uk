@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Daniel Groves • Bristol</title>
+	<title>DinoDev.co.uk</title>
 </svelte:head>
 
 <main 

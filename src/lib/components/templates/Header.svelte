@@ -42,9 +42,7 @@
 
       <nav>
         <ul class="nav">
-          <li><a href="/about" title="About" target="_self">About</a></li>
-          <li><a href="/work" title="Work" target="_self">Work</a></li>
-          <li><a href="/contact" title="Contact" target="_self">Contact</a></li>
+          <li><a href="/home" title="Home" target="_self">Home</a></li>
         </ul>
       </nav>
 

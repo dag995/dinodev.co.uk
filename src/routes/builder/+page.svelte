@@ -54,7 +54,7 @@
 </script>
 
 <svelte:head>
-	<title>Builder • Daniel Groves</title>
+	<title>Builder • DinoDev.co.uk</title>
 </svelte:head>
 
 <div class="wrap">
