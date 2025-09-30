@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>DinoDev.co.uk</title>
+	<title>The UK Interior Design Bureau</title>
 </svelte:head>
 
 <main 

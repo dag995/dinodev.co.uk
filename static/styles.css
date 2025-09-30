@@ -1,52 +1,10 @@
-@font-face {
-  font-family: 'PP Pangram Sans';
-  src: url('./font/PPPangramSans-Bold.eot');
-  src: url('./font/PPPangramSans-Bold.eot?#iefix') format('embedded-opentype'),
-      url('./font/PPPangramSans-Bold.woff2') format('woff2'),
-      url('./font/PPPangramSans-Bold.woff') format('woff'),
-      url('./font/PPPangramSans-Bold.ttf') format('truetype'),
-      url('./font/PPPangramSans-Bold.svg#PPPangramSans-Bold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-  letter-spacing: normal;
-}
-
-@font-face {
-  font-family: 'PP Pangram Sans';
-  src: url('./font/PPPangramSans-Regular.eot');
-  src: url('./font/PPPangramSans-Regular.eot?#iefix') format('embedded-opentype'),
-      url('./font/PPPangramSans-Regular.woff2') format('woff2'),
-      url('./font/PPPangramSans-Regular.woff') format('woff'),
-      url('./font/PPPangramSans-Regular.ttf') format('truetype'),
-      url('./font/PPPangramSans-Regular.svg#PPPangramSans-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  letter-spacing: normal;
-}
-
-@font-face {
-  font-family: 'PP Right Grotesk Tall';
-  src: url('./font/PPRightGrotesk-TallMedium.eot');
-  src: url('./font/PPRightGrotesk-TallMedium.eot?#iefix') format('embedded-opentype'),
-      url('./font/PPRightGrotesk-TallMedium.woff2') format('woff2'),
-      url('./font/PPRightGrotesk-TallMedium.woff') format('woff'),
-      url('./font/PPRightGrotesk-TallMedium.ttf') format('truetype'),
-      url('./font/PPRightGrotesk-TallMedium.svg#PPRightGrotesk-TallMedium') format('svg');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-  letter-spacing: normal;
-}
-
 :root :where(body),
 body {
 	background-color: #FFF;
-  color:var(--theme-color);
+  color:rgba(33,37,41);
 	font-weight: 400;
 	font-size: 1em;
-	font-family: "PP Pangram Sans";
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-smooth: always;
 	outline: transparent;
 	line-height: normal;
@@ -63,7 +21,7 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'PP Right Grotesk Tall';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:500;
   line-height:0.8em;
   color:var(--theme-color);
@@ -75,7 +33,7 @@ h1 {
 }
 
 .globalWrap {
-  padding:80px 0 0;
+  padding:100px 0 0;
 }
 
 .container {
@@ -91,7 +49,7 @@ h1 {
 }
 
 .introTitle h1 {
-  font-family: "PP Pangram Sans";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   font-weight: 600;
   color:var(--theme-color);
@@ -167,4 +125,210 @@ select {
   background-repeat: no-repeat;
   background-position-x: 99%;
   background-position-y: 6px;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary,
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn.btn-inactive,
+.wrap button:not(.blank),
+.wrap a.button:not(.blank),
+.introTitle button:not(.blank),
+.introTitle a.button:not(.blank) {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border-radius: 6px;
+  color: #FFF;
+  background-color: var(--theme-red);
+  border-color: var(--theme-red);
+}
+
+.btn-outline-primary {
+  background-color:transparent!important;
+  color:var(--theme-red)!important;
+}
+.btn-outline-secondary {
+  background-color:transparent!important;
+  color:#333;
+  border-color:#333;
+
+}
+.btn.btn-sm,
+.btn.btn-sm.btn-secondary,
+.wrap button.btn.btn-sm.btn-secondary { 
+  font-size:0.9em;
+  padding:2px 10px;
+}
+
+.btn.btn-sm svg,
+.btn.btn-sm.btn-secondary svg,
+.wrap button.btn.btn-sm.btn-secondary svg { 
+  fill:#FFF;
+  width:10px;
+  height:10px;
+}
+
+table {
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+  color: #212529;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  vertical-align: top;
+  width: 100%
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border: 0 solid;
+  border-color: inherit
+}
+
+table>thead {
+  vertical-align: bottom
+}
+
+table> :not(caption)>* {
+  border-right: 1px solid #dee2e6
+}
+
+th {
+  text-align: inherit;
+  text-align: -webkit-match-parent
+}
+
+table> :not(caption)>*>* {
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  padding: .5rem;
+  vertical-align: middle
+}
+
+table ul {
+  padding-left: 20px
+}
+
+/*
+  TIDB
+*/
+
+.tidb-wrap {
+  line-height: 1.6;
+  padding-bottom:30px;
+}
+.tidb-wrap, 
+.tidb-wrap h1, 
+.tidb-wrap h2, 
+.tidb-wrap h3, 
+.tidb-wrap h4, 
+.tidb-wrap h5 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.tidb-wrap h1, 
+.tidb-wrap h2, 
+.tidb-wrap h3, 
+.tidb-wrap h4, 
+.tidb-wrap h5 {
+  width: 100%;
+  color: #133C63;
+  font-weight: 300;
+  position: relative;
+}
+.tidb-wrap {
+  background-color:#f6f7f7;
+  width:100%;
+}
+.tidb-container {
+  max-width: 100%;
+  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  color:rgba(33,37,41);
+}
+
+.tidb-wrap .w-860 {
+  max-width: 860px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.tidb-wrap h1 {
+  margin: 20px auto 40px;
+  padding: 0 0 40px;
+  font-size: 2.4em;
+  line-height:1.15;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.tidb-wrap h2 {
+  line-height:1.15;
+  font-size:2.2em;
+}
+.tidb-wrap img {
+  max-width:100%;
+  height:auto;
+}
+.tidb-wrap .columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width:100%;
+  box-sizing: border-box;
+}
+.tidb-wrap .columns .column-50 {
+  width:50%;
+  flex-basis:0;
+  flex-grow:1;
+  box-sizing: border-box;
+}
+
+.tidb-wrap .p.img {
+  margin-bottom: 0;
+}
+.tidb-wrap .img_white .img {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 0;
+  border: solid 1px #e6e7e8;
+}
+.tidb-wrap .img_white .caption {
+  border: 0;
+  border-bottom: solid 1px #CCC;
+}
+.tidb-wrap .caption {
+  padding: 1rem;
+  margin-bottom: .5rem;
+}
+.tidb-wrap .caption p {
+  margin: 0;
+  font-size: 0.85em;
+}
+.tidb-wrap .cta-box {
+  border:solid 1px #133c63;
+  padding:50px;
+  max-width: 720px;
+  background-color:#FFF;
+  margin:30px auto;
+}
+
+@media (max-width: 781px) {
+  .tidb-wrap .columns .column-50 {
+    width:100%;
+    flex-basis: 100%; 
+  }
 }

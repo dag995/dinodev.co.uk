@@ -33,12 +33,12 @@
   <div class="wrapper">
     <div class="inner-wrapper">
       
-      <a href="/" class="logo" aria-label="home">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 560 470" style="enable-background:new 0 0 560 470;" xml:space="preserve">
-          <ellipse cx="243" cy="118.2" rx="26.5" ry="26.6"/>
-          <path d="M495.1,62.9C448.9,19.5,381.1,0,288.8,0H67.3c0,0,0,2.8,0,9.8c12.1,3.4,42.5,4.1,33.6,18.8h0.2L13.2,192.2c-17.3,48.9-19.4,48.2,4.1,89.6s80.3,52.7,118.2,22.3l2.1-1.7c40.4-32.4,47.1-90.7,16.3-132.4c-33-44.7-33.5-141,11.5-141c0.1-0.1,0.1-0.3,0.2-0.4h50.5c40.7,0,77,25.5,91,63.8l14.1,38.7h134.9c25.1,0,41.3,26.7,29.7,49.1l-68.5,131.9c-9.6,18.4-27.7,30.7-48.3,32.7c-60,6-166,24.9-247.5,81.9c-0.9,0.6-1.8,1.1-2.7,1.7c-6.5,7.7-17.2,11.1-34.5,13.2c-2.3,0.4-4.6,0.6-6.9,0.8c-3.2,0.3-6.6,0.6-10.1,0.9V470h198.4c82.2,0,150.8-20.2,204.1-60.7c55.5-41.9,90.2-105.6,90.2-188.7C560,147.5,531.9,96.9,495.1,62.9z"/>
-        </svg>
-      </a>
+      <div class="logo-wrap">
+        <a href="/">
+          <img src={`${base}/tidb_logo.svg`} alt="TIDB" title="TIDB" />
+        </a>
+        <p class="tagline">Facilitating Product Visibility &amp; <br>Selection</p>
+      </div>
 
       <nav>
         <ul class="nav">
@@ -60,7 +60,9 @@
     left: 0;
     transition: background-color 0.3s ease-in-out, top 0.6s ease-in-out;
     background: rgba(255, 255, 255, 0.86);
-    border-bottom:solid 1px var(--theme-color);
+    -webkit-box-shadow: 0px 2px 5px 0px rgb(209 211 212);
+    -moz-box-shadow: 0 2px 5px 0 rgba(209,211,212,1);
+    box-shadow: 0px 2px 5px 0px rgb(209 211 212);
   }
   header.bgFFF {
     background:#FFF;
@@ -73,20 +75,28 @@
     padding:10px 15px;
   }
   header .inner-wrapper {
-    max-width:1240px;
     margin:0 auto;
     display:flex;
     align-items: center;
     justify-content: space-between;
   }
-  header .logo {
-    display: block;
-    width:60px;
+  .logo-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
-  header svg {
-    width: 60px;
-    height: auto;
-    fill: #122E49;
+  .tagline {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+    color: #6d6e71;
+    line-height: 22px;
+  }
+  header .logo-wrap img {
+    display: block;
+    width:80px;
+    height:80px;
+    margin-right:20px;
   }
   header ul {
     list-style: none;
