@@ -4,7 +4,7 @@
   let { data } = $props()
   let fields = $state(data.fields)
 </script>
-
+{JSON.stringify(data)}
 <div class="tidb-wrap">
   <div class="container mx-auto wrapper mx-860">
     <h1>Users</h1>
