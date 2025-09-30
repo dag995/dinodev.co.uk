@@ -1,4 +1,4 @@
-// import { RequestHandler } from "@sveltejs/kit";
+import { RequestHandler } from "@sveltejs/kit";
 
 export class DB {
 
