@@ -11,7 +11,7 @@ export class DB {
   }
 
   static id = async args => {
-    return await this.database(`SELECT * FROM ${args.type} WHERE id = ${args.id}`)
+    return await this.database(`SELECT * FROM ${args.type} WHERE rowid = ${args.id}`)
   }
 
   // static search = async args => {
