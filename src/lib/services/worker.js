@@ -1,11 +1,21 @@
 // import { RequestHandler } from "@sveltejs/kit";
 
-export async function call({ request, platform }) {
-  
-  let result = await env.daniel_groves_co_uk_db.prepare(
-    "SELECT * FROM Users"
-  ).run()
+export class DB {
 
-  return new Response(JSON.stringify(result))
+  static database = async query => {
+    return await platform.env.daniel_groves_co_uk_db.prepare(query).run()
+  } // database()
 
-} // call()
+  static all = async args => {
+    return await this.database(`SELECT * FROM ${args.type}`)
+  }
+
+  static id = async args => {
+    return await this.database(`SELECT * FROM ${args.type} WHERE id = ${args.id}`)
+  }
+
+  // static search = async args => {
+    // return await this.database(`SELECT * FROM ${args.type} WHERE ${args.field} = `)
+  // }
+
+} 
