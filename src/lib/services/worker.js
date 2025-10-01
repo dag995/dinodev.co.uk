@@ -3,7 +3,8 @@
 export class DB {
 
   static database = async query => {
-    return await env.daniel_groves_co_uk_db.prepare(query).run()
+    const call = await env.daniel_groves_co_uk_db.prepare(query).run()
+    return Response.json(call.results)
   } // database()
 
   static all = async args => {
