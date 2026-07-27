@@ -42,7 +42,12 @@
 
       <nav>
         <ul class="nav">
-          <li><a href="/home" title="Home" target="_self">Home</a></li>
+          <li><a href="/" title="Home">Home</a></li>
+          <li><a href="/about" title="About">About</a></li>
+          <li><a href="/how-we-help" title="How We Help">How We Help</a></li>
+          <li><a href="/services" title="Services">Services</a></li>
+          <li><a href="/faq" title="FAQ">FAQ</a></li>
+          <li><a href="/contact" title="Contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -111,30 +116,21 @@
     position:relative;
     align-items:center;
     display:flex;
-    color:#122E49;
+    color:#333;
   }
   header ul li {
-    color:#122E49;
-    font-size:1.1em;
+    color:#333;
+    font-size:1em;
   }
   header ul li a {
-    color:#122E49;
+    color:#333;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
-  header ul li a:before {
-    content: attr(title) / "";
-    height: 0;
-    visibility: hidden;
-    overflow: hidden;
-    user-select: none;
-    pointer-events: none;
-    font-weight: bold;
-  }
   header ul li a:hover {
-    font-weight:bold;
+    text-decoration: underline;
   }
 
   @media (max-width: 1000px) {

@@ -10,15 +10,20 @@
       <p>TIDB provides actionable insight in the form of consultancy and advisory services, alongside digital marketing, to manufacturers and suppliers.</p>
     </div>  
     
-    <p class="img">
-      <img 
-        src={`${base}/images/tidb_home_01C.jpg`}
-        alt="Bringing your product to the interior design and architectural market" 
-        title="Bringing your product to the interior design and architectural market" 
-        width="1200" 
-        height="800" 
-      />
-    </p>
+    <div class="img_wrap">
+      <p class="img">
+        <img 
+          src={`${base}/images/tidb_home_01C.jpg`}
+          alt="Bringing your product to the interior design and architectural market" 
+          title="Bringing your product to the interior design and architectural market" 
+          width="1200" 
+          height="800" 
+        />
+      </p>
+      <div class="caption">
+        Kricket Restaurant, White City, London by Run for the Hills.
+      </div>
+    </div>
     
     <div style="padding-top:80px;padding-right:20px;padding-left:20px" class="w-860">
       
@@ -26,7 +31,7 @@
         <div class="column column-50">
           
           <div style="height:100px"></div>
-          <h2 class="wp-block-heading" id="creative-specifiers-and-your-business">Creative Specifiers and your Business</h2>  
+          <h2 id="creative-specifiers-and-your-business">Creative Specifiers and your Business</h2>  
           <p>You are probably excited at the potential your products or services have within the Creative Specifier market but feel that you need help. It may be that nobody in your business has experience of how creative specifiers work and perhaps you have realised that standard marketing is ineffective for this sector.</p>
     
           <div class="spacer"></div>
@@ -74,22 +79,22 @@
         <ul>
           <li>
             <a 
-              href="/about/selling-via-interior-designers-and-architects-your-launch-pad/"
+              href="/how-we-help/selling-via-interior-designers-and-architects-your-launch-pad/"
             >Selling via interior designers and architects - your Launch Pad</a>
           </li>
           <li>
             <a 
-              href="/about/launching-your-product-into-the-interior-design-and-architectural-market/"
+              href="/how-we-help/launching-your-product-into-the-interior-design-and-architectural-market/"
             >Launching your product into the interior design and architectural market</a>
           </li>
           <li>
             <a 
-              href="/about/maintaining-your-products-visibility-to-interior-designers-and-architects/"
+              href="/how-we-help/maintaining-your-products-visibility-to-interior-designers-and-architects/"
             >Maintaining your product's visibility to interior designers and architects</a>
           </li>
           <li>
             <a 
-              href="/about/your-products-route-to-the-interior-design-and-architectural-market/"
+              href="/how-we-help/your-products-route-to-the-interior-design-and-architectural-market/"
             >Your product's route to the interior design and architectural market</a>
           </li>
         </ul>

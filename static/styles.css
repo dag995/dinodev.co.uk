@@ -286,17 +286,49 @@ table ul {
 .tidb-wrap .columns {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1%;
   width:100%;
   box-sizing: border-box;
 }
-.tidb-wrap .columns .column-50 {
-  width:50%;
+.tidb-wrap .columns .column-25,
+.tidb-wrap .columns .column-33,
+.tidb-wrap .columns .column-50,
+.tidb-wrap .columns .column-66 {
   flex-basis:0;
   flex-grow:1;
+  margin-bottom:1.5em;
   box-sizing: border-box;
 }
+.columns .column-75,
+.tidb-wrap .columns .column-75 {
+  width:74%;
+  flex-basis:74%;
+}
+.columns .column-50,
+.tidb-wrap .columns .column-50 {
+  width:49.5%;
+  flex-basis:49.5;
+}
+.columns .column-25,
+.tidb-wrap .columns .column-25 {
+  width:24.5%;
+  flex-basis:24.5%;
+}
+.columns .column-33,
+.tidb-wrap .columns .column-33 {
+  width:32.66667%;
+  flex-basis:32.66667%;
+}
+.tidb-wrap .columns .column-66 {
+  width:66.6667%;
+  flex-basis:66.6667%;
+}
+.tidb-wrap .columns img {
+  width:100%;
+  height:auto;
+}
 
+.img_wrap .img,
 .tidb-wrap .p.img {
   margin-bottom: 0;
 }
@@ -306,17 +338,26 @@ table ul {
   margin-bottom: 0;
   border: solid 1px #e6e7e8;
 }
+.img_wrap {
+  padding-left:10px;
+  padding-right:10px;
+  max-width:1240px;
+  margin:0 auto;
+}
+.img_wrap .caption,
 .tidb-wrap .img_white .caption {
   border: 0;
   border-bottom: solid 1px #CCC;
 }
+.img_wrap .caption,
 .tidb-wrap .caption {
-  padding: 1rem;
+  padding: 0.6rem;
   margin-bottom: .5rem;
 }
+.img_wrap .caption,
 .tidb-wrap .caption p {
   margin: 0;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 .tidb-wrap .cta-box {
   border:solid 1px #133c63;
@@ -325,8 +366,26 @@ table ul {
   background-color:#FFF;
   margin:30px auto;
 }
+.tidb-wrap .cta-box ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.tidb-wrap .cta-box ul li {
+  border-bottom:solid 1px #CCC;
+  padding:10px;
+}
+.tidb-wrap .cta-box ul li:last-child {
+  border-bottom:0;
+  padding-bottom:0;
+}
 
 @media (max-width: 781px) {
+  .columns .column-25,
+  .tidb-wrap .columns .column-25,
+  .columns .column-33,
+  .tidb-wrap .columns .column-33,
+  .columns .column-50,
   .tidb-wrap .columns .column-50 {
     width:100%;
     flex-basis: 100%; 
