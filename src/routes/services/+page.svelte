@@ -1,10 +1,10 @@
 <script>
   import { base } from '$app/paths'
   const services = [
-    { title: 'Industry<br />Intelligence', color: '#5f4b4c' },
-    { title: 'Actionable<br />Insights', color: '#59856e' },
-    { title: 'Digital<br />Strategy', color: '#d6b777' },
-    { title: 'Digital<br />Marketing<br />Services', color: '#416691' }
+    { title: 'Industry Intelligence', header: 'Industry<br />Intelligence', color: '#5f4b4c', url: '/services/industry-intelligence' },
+    { title: 'Actionable Insights', header: 'Actionable<br />Insights', color: '#59856e', url: '/services/actionable-insights/' },
+    { title: 'Digital Strategy', header: 'Digital<br />Strategy', color: '#d6b777', url: '/services/digital-strategy/' },
+    { title: 'Digital Marketing', header: 'Digital<br />Marketing', color: '#416691', url: '/services/digital-marketing' }
   ]
 </script>
 
@@ -37,19 +37,26 @@
     </div>
 
     <div class="blobs">
-      {#each services as service}
-        <div style={`background-color:${service.color}`}>
+      {#each services as s}
+        <div style={`background-color:${s.color}`}>
           <div>
-            {@html service.title}
+            <a href={s.url} title={s.title}>{@html s.header}</a>
           </div>
         </div>
       {/each}
     </div>
-    <div style="max-width:660px;padding:60px 20px;margin:0 auto;">
+    <div style="max-width:660px;padding:60px 20px 10px;margin:0 auto;">
       <p>The UK Interior Design Bureau's services are based on first-hand industry knowledge as interior designers.</p>
       <p>Because we understand how creative specifiers source, evaluate and specify products we are able to help manufacturers become more visible and compelling to architects and interior designers, driving enquiries and specifications</p>
     </div>
 
+      <div class="cta-box">
+        <ul>
+          {#each services as s}
+            <li><a href={s.url} title={s.title} style="width:100%;display:flex;justify-content:space-between;">{s.title}<span>&rarr;</span></a></li>
+          {/each}
+        </ul>
+      </div>
 
   </div>
 </div>
@@ -92,6 +99,12 @@
     aspect-ratio: 1;
     position: relative;
     overflow: hidden;
+    width:calc(100% + 10px);
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  .blobs div a {
+    color:#FFF;
   }
   .blobs div + div + div {
     border-radius:50% 0 50% 50%;

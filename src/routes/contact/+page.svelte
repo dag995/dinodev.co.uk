@@ -8,7 +8,7 @@
 
 <div class="tidb-wrap">
   <div class="tidb-container">
-    <div class="w-860" style="padding-top:80px;padding-right:20px;padding-left:20px;padding-bottom:0;border-bottom:solid 1px #CCC;">
+    <div class="w-860" style="padding:80px 20px 0 20px;margin-bottom:20px;border-bottom:solid 1px #CCC;">
       <h1>Contact The UK Interior Design Bureau</h1>
     </div>
 

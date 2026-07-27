@@ -78,6 +78,11 @@ div {
   display: block;
 }
 
+hr {
+  color:#EEE;
+  border-color:#EEE;
+}
+
 img {
   width:100%;
   max-width:100%;
@@ -183,6 +188,10 @@ select {
   height:10px;
 }
 
+#content {
+  min-height:80vh;
+}
+
 table {
   border: 1px solid #dee2e6;
   border-collapse: collapse;
@@ -229,6 +238,9 @@ table ul {
 .tidb-wrap {
   line-height: 1.6;
   padding-bottom:30px;
+  min-height:80vh;
+  padding-left:15px;
+  padding-right:15px;
 }
 .tidb-wrap, 
 .tidb-wrap h1, 
@@ -320,8 +332,8 @@ table ul {
   flex-basis:32.66667%;
 }
 .tidb-wrap .columns .column-66 {
-  width:66.6667%;
-  flex-basis:66.6667%;
+  width:65.2667%;
+  flex-basis:66.2667%;
 }
 .tidb-wrap .columns img {
   width:100%;

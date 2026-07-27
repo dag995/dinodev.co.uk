@@ -42,8 +42,8 @@
 
       <nav>
         <ul class="nav">
-          <li><a href="/" title="Home">Home</a></li>
           <li><a href="/about" title="About">About</a></li>
+          <li><a href="/testimonials" title="Testimonials">Testimonials</a></li>
           <li><a href="/how-we-help" title="How We Help">How We Help</a></li>
           <li><a href="/services" title="Services">Services</a></li>
           <li><a href="/faq" title="FAQ">FAQ</a></li>
@@ -136,13 +136,26 @@
   @media (max-width: 1000px) {
     header ul {
       flex-wrap: nowrap;
-      gap: 3em;
     }
   }
   @media (max-width: 720px) {
+    header .wrapper {
+      padding:10px;
+    }
+    header .wrapper .inner-wrapper {
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+    header .tagline {
+      font-size:14px;
+      font-weight:400;
+    }
+    header .logo-wrap img {
+      margin-right:10px;
+    }
     header ul {
+      margin-top:10px;
       flex-wrap: nowrap;
-      gap: 1em;
     }
   }
 </style>
