@@ -26,19 +26,15 @@
           </div>
         </div>
       </div>
-      
+    </div>
+    
+    <div class="w-720">
       <h3>The UK Interior Design Bureau Actionable Insight gives you:-</h3>
-      <div class="columns">
-        <div class="column-33" style="padding:0 20px 0 0;">
-          <p>An end to wasteful sales activities which have limited reach.</p>
-        </div>
-        <div class="column-33" style="padding:0 10px;">
-          <p>A roadmap designed around your own product, positioning and budget.</p>
-        </div>
-        <div class="column-33" style="padding:0 0 0 20px;">
-          <p>Clarity and direction on channelling resources to achieve growth and the highest return on investment.</p>
-        </div>
-      </div>
+      <ul>
+        <li>An end to wasteful sales activities which have limited reach.</li>
+        <li>A roadmap designed around your own product, positioning and budget.</li>
+        <li>Clarity and direction on channelling resources to achieve growth and the highest return on investment.</li>
+      </ul>
     </div>
 
     <div class="intro">
@@ -61,8 +57,6 @@
           <p><strong>Product-managers</strong> - expanding into the Creative Specifier market possibly for the first time</p>
         </div>
       </div>
-
-      <p>The Modules focus on four key areas which provide a breadth of understanding across this market sector including services to provide, the process of professional specification, how to enable your team to engage with this customer-type and how to present your product and services online in the most effective way.</p>
 
     </div>
     

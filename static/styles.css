@@ -272,11 +272,15 @@ table ul {
   color:rgba(33,37,41);
 }
 
+.tidb-wrap .w-720,
 .tidb-wrap .w-860 {
   max-width: 860px;
   width:100%;
   margin-left:auto;
   margin-right:auto;
+}
+.tidb-wrap .w-720 {
+  max-width: 720px;
 }
 .tidb-wrap h1 {
   margin: 20px auto 40px;

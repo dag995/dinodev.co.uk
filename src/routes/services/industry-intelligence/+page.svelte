@@ -27,19 +27,15 @@
           </div>
         </div>
       </div>
+    </div>
       
+    <div class="w-720">
       <h3>The UK Interior Design Bureau gives you an insider view of:-</h3>
-      <div class="columns">
-        <div class="column-33" style="padding:0 20px 0 0;">
-          <p>The product attributes that are crucial for creative specifiers, enabling focus on communications which drive specification decisions</p>
-        </div>
-        <div class="column-33" style="padding:0 10px;">
-          <p>The essential services needed from a manufacturer, so you can remove every barrier to being specified.</p>
-        </div>
-        <div class="column-33" style="padding:0 0 0 20px;">
-          <p>The specification lifecycle and its influencers, so you can protect your specification against value-engineering.</p>
-        </div>
-      </div>
+      <ul>
+        <li>The product attributes that are crucial for creative specifiers, enabling focus on communications which drive specification decisions</li>
+        <li>The essential services needed from a manufacturer, so you can remove every barrier to being specified.</li>
+        <li>The specification lifecycle and its influencers, so you can protect your specification against value-engineering.</li>
+      </ul>
     </div>
 
     <CTA />

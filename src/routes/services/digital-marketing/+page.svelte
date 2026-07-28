@@ -27,34 +27,18 @@
           </div>
         </div>
       </div>
-      
-      <h3>The UK Interior Design Bureau Digital Marketing gives you:-</h3>
-      <div class="columns">
-        <div class="column-33" style="padding:0 20px 0 0;">
-          <p>A transition away from dependency on outbound, in-person sales to generate new business.</p>
-        </div>
-        <div class="column-33" style="padding:0 10px;">
-          <p>Product visibility to creative specifiers at the point of searching and specifying.</p>
-        </div>
-        <div class="column-33" style="padding:0 0 0 20px;">
-          <p>A scalable infrastructure generating valuable leads for customer service and sales to advance.</p>
-        </div>
-      </div>
-          
     </div>
-
-    <div style="max-width:720px;margin:0 auto;">
-      <h2 style="font-size:1.8em;">Attracting interior designers and architects to your product and service</h2>
-      <h3 style="font-size:1.4em;margin-top:10px;margin-bottom:30px;">This service is for product manufacturers, suppliers and fabricators.</h3>
-
-      <p>With creative specifiers, like other target markets, your website is your most important sales tool. Your product needs to be visible and accessible online and, despite the plethora of other suppliers' websites, it is entirely possible for your product to stand out.</p>
-      <p>When a creative specifier is searching for a related product, your product is made visible online even if the prospective customer is not yet specifically aware of it. Then the product and its properties, alongside your service, are presented, in crystal clarity to enable a rapid assessment of suitability.</p>
-      <p>TIDB creates and develops websites which provide valuable specifying resources for interior designers and architects and generate specification sales.</p>
-
-    </div>
-
-    <CTA />
     
+    <div class="w-720">
+      <h3>The UK Interior Design Bureau Digital Marketing gives you:-</h3>
+      <ul>
+        <li>A transition away from dependency on outbound, in-person sales to generate new business.</li>
+        <li>Product visibility to creative specifiers at the point of searching and specifying.</li>
+        <li>A scalable infrastructure generating valuable leads for customer service and sales to advance.</li>
+      </ul>
+    </div>
+
+    <CTA />    
     <Services />
 
   </div>

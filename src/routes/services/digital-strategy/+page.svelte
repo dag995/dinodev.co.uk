@@ -27,19 +27,16 @@
           </div>
         </div>
       </div>
-      
+
+    </div>
+
+    <div class="w-720">  
       <h3>The UK Interior Design Bureau digital strategy gives you:-</h3>
-      <div class="columns">
-        <div class="column-33" style="padding:0 20px 0 0;">
-          <p>An exit route from high-spend, short-term SEO and Ads</p>
-        </div>
-        <div class="column-33" style="padding:0 10px;">
-          <p>Search engine optimisation that compounds from Day One.</p>
-        </div>
-        <div class="column-33" style="padding:0 0 0 20px;">
-          <p>The architecture to build growth, reputation and leads.</p>
-        </div>
-      </div>
+      <ul>
+        <li>An exit route from high-spend, short-term SEO and Ads</li>
+        <li>Search engine optimisation that compounds from Day One.</li>
+        <li>The architecture to build growth, reputation and leads.</li>
+      </ul>
     </div>
 
     <CTA />
