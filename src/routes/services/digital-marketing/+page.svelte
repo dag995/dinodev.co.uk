@@ -1,5 +1,5 @@
 <script>
-  import { base } from '$app/paths'
+  import { CTA, Services } from '$lib/components/templates'
 </script>
 
 <svelte:head>
@@ -52,6 +52,10 @@
       <p>TIDB creates and develops websites which provide valuable specifying resources for interior designers and architects and generate specification sales.</p>
 
     </div>
+
+    <CTA />
+    
+    <Services />
 
   </div>
 </div>

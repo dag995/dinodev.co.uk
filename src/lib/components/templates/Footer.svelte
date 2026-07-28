@@ -12,21 +12,24 @@
         <img src={`${base}/tidb_logo.svg`} alt="TIDB" title="TIDB" />
       </a>
     </div>
-    
+
     <div class="col">
       <p class="tagline">Facilitating Product Visibility & Selection</p>
     </div>
 
-    <div class="col">
+    <div class="col"></div>
+    <div class="col"></div>
+
+    <div class="col right">
       <h5>Get in touch</h5>
       <ul>
-        <li><a href="tel:+4401174038840" class="">+44 (0) 117 403 8840 (Carol)</a></li>
-        <li><a href="tel:+4401174038844" class="">+44 (0) 117 403 8844 (Dan)</a></li>
+        <li><a href="tel:+4401174038840" class="">+44 (0) 117 403 8840</a></li>
+        <!-- <li><a href="tel:+4401174038844" class="">+44 (0) 117 403 8844 (Dan)</a></li> -->
         <li><a href="mailto:contact@tidb.co.uk" class="">contact@tidb.co.uk</a></li>
       </ul>
     </div>
 
-    <div class="col">
+    <!-- <div class="col">
       <h5>Location</h5>
       <p>
         Flat 14, Bridge Quay
@@ -34,9 +37,9 @@
         <br />Bristol
         <br />BS1 6PQ
       </p>
-    </div>
+    </div> -->
 
-    <div class="col">
+    <!-- <div class="col">
       <h5>Location</h5>
       <p>
         108 Brent St
@@ -44,17 +47,17 @@
         <br />Highbridge
         <br />TA9 4BB
       </p>
-    </div>
+    </div> -->
 
   </div>
 
   <div class="legal">
     <p>
       &copy;  {new Date().getFullYear()} The UK Interior Design Bureau Ltd registered in England and Wales.
-      <br />
-      Company No. 07172422 • VAT No. 994-7332-72
-      <br />
-      Registered office: Flat 14, Bridge Quay, 138-141 Redcliff Street, Bristol, BS1 6QP, UK
+      <!-- <br /> -->
+      <!-- Company No. 07172422 • VAT No. 994-7332-72 -->
+      <!-- <br /> -->
+      <!-- Registered office: Flat 14, Bridge Quay, 138-141 Redcliff Street, Bristol, BS1 6QP, UK -->
     </p>
   </div>
 
@@ -90,6 +93,9 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
+  }
+  footer .wrap .col.right {
+    text-align:right;
   }
   footer .tagline {
     margin:0;

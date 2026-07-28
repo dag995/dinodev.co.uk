@@ -1,5 +1,5 @@
 <script>
-  import { base } from '$app/paths'
+  import { CTA, Services } from '$lib/components/templates'
 </script>
 
 <svelte:head>
@@ -65,6 +65,10 @@
       <p>The Modules focus on four key areas which provide a breadth of understanding across this market sector including services to provide, the process of professional specification, how to enable your team to engage with this customer-type and how to present your product and services online in the most effective way.</p>
 
     </div>
+    
+    <CTA />
+    
+    <Services />
 
   </div>
 </div>

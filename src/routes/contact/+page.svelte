@@ -18,14 +18,16 @@
         <div class="column column-33">
           <h3 style="font-size:1.6em;">Contact Details</h3>
           <p>
-            <a href="tel:01174038840" title="0117 403 8840">0117 403 8840</a> (Carol)
-            <br />
-            <a href="tel:01174038844" title="0117 403 8844">0117 403 8844</a> (Dan)
+            <a href="tel:01174038840" title="0117 403 8840">0117 403 8840</a>
+             <!-- (Carol) -->
+            <!-- <br /> -->
+            <!-- <a href="tel:01174038844" title="0117 403 8844">0117 403 8844</a> (Dan) -->
             <br />
             <a href="mailto:contact@tidb.co.uk" title="contact@tidb.co.uk">contact@tidb.co.uk</a>
           </p>
         </div>
         
+      <!-- 
         <div class="column column-66">
           <h3 style="font-size:1.6em;">Address</h3>
           <div class="columns">
@@ -36,7 +38,9 @@
               <p style="margin-top:0;">108 Brent St<br />Brent Knoll<br />Highbridge<br />TA9 4BB</p>
             </div>
           </div>
-        </div>
+        </div> 
+      -->
+
       </div>
     </div>
 

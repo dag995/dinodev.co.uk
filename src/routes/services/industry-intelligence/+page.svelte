@@ -1,5 +1,5 @@
 <script>
-  import { base } from '$app/paths'
+  import { CTA, Services } from '$lib/components/templates'
 </script>
 
 <svelte:head>
@@ -41,6 +41,10 @@
         </div>
       </div>
     </div>
+
+    <CTA />
+    
+    <Services />
 
   </div>
 </div>

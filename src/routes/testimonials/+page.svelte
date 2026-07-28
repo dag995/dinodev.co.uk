@@ -1,7 +1,3 @@
-<script>
-  import { base } from '$app/paths'
-</script>
-
 <svelte:head>
 	<title>Testimonials • TIDB</title>
 </svelte:head>
@@ -15,21 +11,10 @@
     </div>
 
     <blockquote>
-      <img src="/images/dulux.svg" alt="Dulux" title="Dulux" style="width:120px;" />
-      <p>We had been uncomfortably aware that the Dulux brand being predominantly retail can create a barrier to being considered by interior designers, architects and their clients for specification.</p>
-      <p>The industry insight provided by TIDB illuminated to our marketing team all of the product USPs that are crucial to the creative specifier, not just the aesthetic. As a result we have been enabled in proving our worth to creative specifiers and demonstrate through our product presentation, language and service that we are serious about serving this customer genre. Through these actions we have significantly improved our online position, engagement and sales figures with the interior designer and architect market</p>
-      <cite>
-        Fleming, Global Marketing Manager
-        <br />
-        <em>Dulux, Akzo Nobel, Slough, UK</em>
-      </cite>
-    </blockquote>
-
-    <blockquote>
       <img src="/images/kloecknerMetals-logo.png" alt="Kloeckner Metals Corporation" title="Kloeckner Metals Corporation" style="width:220px;" />
       <p>Our experience with TIDB (Carol and Daniel) was both pleasant and enlightening. Where we came to them with very little knowledge or experience in the architectural marketing and sales arenas, Carol and Daniel were able to both educate and equip us to launch our business successfully here in the USA.</p>
       <p>While our time together was not as long as we had hoped, the professionalism, positive energy and encouragement to move forward was of great value and impact to our organization.</p>
-      <cite>Joey Johnson, Executive Vice President – Commercial<br /><em>Kloeckner Metals Corporation, Georgia, USA</em></cite>
+      <cite>Joey Johnson, Executive Vice President - Commercial<br /><em>Kloeckner Metals Corporation, Georgia, USA</em></cite>
     </blockquote>
 
     <blockquote>
@@ -44,6 +29,17 @@
       <p>The sales team and the directors of Silent Gliss were painfully aware of how specifications can be derailed and never reach procurement. Carol provided us with clear insights into the world of creative specifiers and their roles and responsibilities within a design project.</p>
       <p>We learnt what support to provide, how to build effective professional relationships and, critically, how to protect our product specifications against other "influencers" in the contract chain. Our team members are now taking steps to pro-actively develop our specification sales with demonstrable success.</p>
       <cite>Jeff Alexander, Training and Technical Support Manager<br /><em>Silent Gliss, UK & International</em></cite>
+    </blockquote>
+
+    <blockquote>
+      <img src="/images/dulux.svg" alt="Dulux" title="Dulux" style="width:120px;" />
+      <p>We had been uncomfortably aware that the Dulux brand being predominantly retail can create a barrier to being considered by interior designers, architects and their clients for specification.</p>
+      <p>The industry insight provided by TIDB illuminated to our marketing team all of the product USPs that are crucial to the creative specifier, not just the aesthetic. As a result we have been enabled in proving our worth to creative specifiers and demonstrate through our product presentation, language and service that we are serious about serving this customer genre. Through these actions we have significantly improved our online position, engagement and sales figures with the interior designer and architect market</p>
+      <cite>
+        Fleming, Global Marketing Manager
+        <br />
+        <em>Dulux, Akzo Nobel, Slough, UK</em>
+      </cite>
     </blockquote>
 
   </div>

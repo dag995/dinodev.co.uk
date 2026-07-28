@@ -1,5 +1,6 @@
 <script>
-  import { base } from '$app/paths'
+  import { Services } from '$lib/components/templates'
+  
   const services = [
     { title: 'Industry Intelligence', header: 'Industry<br />Intelligence', color: '#5f4b4c', url: '/services/industry-intelligence' },
     { title: 'Actionable Insights', header: 'Actionable<br />Insights', color: '#59856e', url: '/services/actionable-insights/' },
@@ -50,13 +51,7 @@
       <p>Because we understand how creative specifiers source, evaluate and specify products we are able to help manufacturers become more visible and compelling to architects and interior designers, driving enquiries and specifications</p>
     </div>
 
-      <div class="cta-box">
-        <ul>
-          {#each services as s}
-            <li><a href={s.url} title={s.title} style="width:100%;display:flex;justify-content:space-between;">{s.title}<span>&rarr;</span></a></li>
-          {/each}
-        </ul>
-      </div>
+    <Services />
 
   </div>
 </div>

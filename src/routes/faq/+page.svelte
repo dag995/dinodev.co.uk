@@ -78,16 +78,12 @@
       <div class="faq">
         {#each faqs as faq, fk}
           <details class={open.includes(fk) ? 'open' : ''} open={open.includes(fk)}>
-            <summary>
-              <a 
-                href="/" 
-                title={faq.title}
-                onclick={e => {
-                  e.preventDefault()
-                  open = open.includes(fk) ? open.filter(o => o !== fk) : [...open, fk]
-                }}
-              >{faq.title}</a>
-            </summary>
+            <summary
+              onclick={e => {
+                e.preventDefault()
+                open = open.includes(fk) ? open.filter(o => o !== fk) : [...open, fk]
+              }}
+            >{faq.title}</summary>
             {@html faq.description}
           </details>
         {/each}

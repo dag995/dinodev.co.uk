@@ -1,9 +1,9 @@
 <script>
-  import { base } from '$app/paths'
+  import { HowWeHelp } from "$lib/components/templates"
 </script>
 
 <svelte:head>
-	<title>Selling via interior designers and architects - your Launch Pad • TIDB</title>
+	<title>Launching your product into the interior design and architectural market • TIDB</title>
 </svelte:head>
 
 <div class="tidb-wrap">
@@ -173,34 +173,7 @@
 
     </div>
 
-    <div class="cta-box">
-      <ul>
-        <li>
-          <a 
-            href="/how-we-help/selling-via-interior-designers-and-architects-your-launch-pad/"
-            title="Selling via interior designers and architects - your Launch Pad"
-          >Selling via interior designers and architects - your Launch Pad</a>
-        </li>
-        <li>
-          <a 
-            href="/how-we-help/launching-your-product-into-the-interior-design-and-architectural-market/"
-            title="Launching your product into the interior design and architectural market"
-          >Launching your product into the interior design and architectural market</a>
-        </li>
-        <li>
-          <a 
-            href="/how-we-help/maintaining-your-products-visibility-to-interior-designers-and-architects/"
-            title="Maintaining your product's visibility to interior designers and architects"
-          >Maintaining your product's visibility to interior designers and architects</a>
-        </li>
-        <li>
-          <a 
-            href="/how-we-help/your-products-route-to-the-interior-design-and-architectural-market/"
-            title="Your product's route to the interior design and architectural market"
-          >Your product's route to the interior design and architectural market</a>
-        </li>
-      </ul>
-    </div>
+    <HowWeHelp />
 
   </div>
 </div>
