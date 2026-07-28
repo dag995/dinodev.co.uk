@@ -20,7 +20,7 @@
   <div class="img_wrap">
     <p class="img">
       <img 
-        src={`${base}/images/tidb_head_04.jpg`}
+        src="/images/tidb_head_04.jpg"
         alt="Sitting room, Bermondsey, London by Suna Interior Design" 
         title="Sitting room, Bermondsey, London by Suna Interior Design" 
         width="1200" 
@@ -84,25 +84,34 @@
         </div>
       </div>
       
-      <div class="cta-box">
-        <ul>
-          <li>
-            <a 
-              href="/how-we-help/selling-via-interior-designers-and-architects-your-launch-pad/"
-            >Selling via interior designers and architects - your Launch Pad</a>
-          </li>
-          <li>
-            <a 
-              href="/how-we-help/launching-your-product-into-the-interior-design-and-architectural-market/"
-            >Launching your product into the interior design and architectural market</a>
-          </li>
-          <li>
-            <a 
-              href="/how-we-help/maintaining-your-products-visibility-to-interior-designers-and-architects/"
-            >Maintaining your product's visibility to interior designers and architects</a>
-          </li>
-        </ul>
-      </div>
+    <div class="cta-box">
+      <ul>
+        <li>
+          <a 
+            href="/how-we-help/selling-via-interior-designers-and-architects-your-launch-pad/"
+            title="Selling via interior designers and architects - your Launch Pad"
+          >Selling via interior designers and architects - your Launch Pad</a>
+        </li>
+        <li>
+          <a 
+            href="/how-we-help/launching-your-product-into-the-interior-design-and-architectural-market/"
+            title="Launching your product into the interior design and architectural market"
+          >Launching your product into the interior design and architectural market</a>
+        </li>
+        <li>
+          <a 
+            href="/how-we-help/maintaining-your-products-visibility-to-interior-designers-and-architects/"
+            title="Maintaining your product's visibility to interior designers and architects"
+          >Maintaining your product's visibility to interior designers and architects</a>
+        </li>
+        <li>
+          <a 
+            href="/how-we-help/your-products-route-to-the-interior-design-and-architectural-market/"
+            title="Your product's route to the interior design and architectural market"
+          >Your product's route to the interior design and architectural market</a>
+        </li>
+      </ul>
+    </div>
 
     </div>
 

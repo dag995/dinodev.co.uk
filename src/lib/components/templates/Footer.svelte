@@ -66,6 +66,7 @@
     margin-top:0;
     display:block;
     font-size:0.9em;
+    background:#FFF;
   }
   footer .wrap {
     max-width:1240px;

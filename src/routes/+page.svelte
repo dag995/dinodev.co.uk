@@ -13,7 +13,7 @@
     <div class="img_wrap">
       <p class="img">
         <img 
-          src={`${base}/images/tidb_home_01C.jpg`}
+          src="/images/tidb_home_01C.jpg"
           alt="Bringing your product to the interior design and architectural market" 
           title="Bringing your product to the interior design and architectural market" 
           width="1200" 
@@ -39,7 +39,7 @@
           <div class="img_wrap img_white">
             <p class="img">
               <img 
-                src={`${base}/images/tidb_home_03.jpg`}
+                src="/images/tidb_home_03.jpg"
                 alt="Waldorf Astoria Hotel, Shanghai by Hirsch Bedner Associates" 
                 title="Waldorf Astoria Hotel, Shanghai by Hirsch Bedner Associates" 
                 width="800" 
@@ -56,7 +56,7 @@
           <div class="img_wrap img_white">
             <p class="img">
               <img 
-                src={`${base}/images/tidb_home_02.jpg`}
+                src="/images/tidb_home_02.jpg"
                 alt="Fortnum Royal Exchange Bar and Restaurant, London by Universal Design Studio. Photography by Andrew-Meredith" 
                 title="Fortnum Royal Exchange Bar and Restaurant, London by Universal Design Studio. Photography by Andrew-Meredith" 
                 width="800" 
