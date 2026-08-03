@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>How We Help • TIDB</title>
+	<title>Getting Specified • TIDB</title>
 </svelte:head>
 
 <div class="tidb-wrap">
@@ -11,7 +11,7 @@
     
     <div class="intro">
       <h1 >The UK Interior Design Bureau</h1>
-      <h2>How We Help</h2>
+      <h2>Getting Specified</h2>
       <p>Offering a foundation for effective marketing to Creative Specifiers (interior designers, architects and product specifiers)</p>
     </div>
 

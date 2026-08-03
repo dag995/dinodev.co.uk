@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Maintaining your product's visibility to interior designers and architects • TIDB</title>
+	<title>Keeping your product visible to interior designers and architects • TIDB</title>
 </svelte:head>
 
 <div class="tidb-wrap">
@@ -11,7 +11,7 @@
   <div class="tidb-container">    
     
     <div class="intro">
-      <h1>Maintaining your product's visibility to interior designers and architects</h1>
+      <h1>Keeping your product visible to interior designers and architects</h1>
     </div>
 
     <div style="padding-right:20px;padding-left:20px" class="w-860">

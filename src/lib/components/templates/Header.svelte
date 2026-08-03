@@ -44,7 +44,7 @@
         <ul class="nav">
           <li><a href="/about" title="About">About</a></li>
           <li><a href="/testimonials" title="Testimonials">Testimonials</a></li>
-          <li><a href="/how-we-help" title="How We Help">How We Help</a></li>
+          <li><a href="/getting-specified" title="Getting Specified">Getting Specified</a></li>
           <li><a href="/services" title="Services">Services</a></li>
           <li><a href="/faq" title="FAQ">FAQ</a></li>
           <li><a href="/contact" title="Contact">Contact</a></li>

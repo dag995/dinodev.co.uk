@@ -11,7 +11,7 @@
     
     <div class="intro">
       <h1 >Selling via interior designers and architects - your Launch Pad</h1>
-      <h2>These are the essentials to be in place in order to launch.</h2>
+      <h2>The essentials for harnessing the creative specifier route to market.</h2>
     </div>
   </div>
 

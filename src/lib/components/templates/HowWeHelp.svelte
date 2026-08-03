@@ -2,17 +2,17 @@
 <script>
   const services = [
     { 
-      title: 'Selling via interior designers and architects - your Launch Pad', 
-      url: '/how-we-help/selling-via-interior-designers-and-architects-your-launch-pad' 
+      title: 'Selling via interior designers and architects - your launch pad', 
+      url: '/getting-specified/selling-via-interior-designers-and-architects-your-launch-pad' 
     }, {
       title: 'Launching your product into the interior design and architectural market',
-      url: '/how-we-help/launching-your-product-into-the-interior-design-and-architectural-market'
+      url: '/getting-specified/launching-your-product-into-the-interior-design-and-architectural-market'
     }, {
-      title: 'Maintaining your product\'s visibility to interior designers and architects',
-      url: '/how-we-help/maintaining-your-products-visibility-to-interior-designers-and-architects'
+      title: 'Keeping your product visible to interior designers and architects',
+      url: '/getting-specified/keeping-your-product-visible'
     }, {
-      title: 'Your product\'s route to the interior design and architectural market',
-      url: '/how-we-help/your-products-route-to-the-interior-design-and-architectural-market'
+      title: 'Building a product range for creative specifiers',
+      url: '/getting-specified/building-a-product-range-that-can-be-specified'
     }
   ]
 </script>

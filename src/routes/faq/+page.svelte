@@ -20,11 +20,6 @@
         <p>We ensure that the relevant messages are designed into our content that will attract and engage people working within each of these business models.</p>`
     }, {
       title: 'What about other, non-architectural markets?',
-      description: `<p>The short answer is no. Here's why.</p>
-        <p>It is true that there are common core requirements for every interior design business in the process of sourcing, selection and specification however all interior design businesses are not the same. There are, broadly speaking, five key types of interior design business, each with a different fee and profit-earning structure and naturally with ensuing different and distinct priorities regarding specification, procurement and delivery.</p>
-        <p>We ensure that the relevant messages are designed into our content that will attract and engage people working within each of these business models.</p>`
-    }, {
-      title: 'What about other, non-architectural markets?',
       description: `<p>All of our clients have other customers they need to consider as well Creative Specifiers.</p>
         <p>We always tailor the “destination” on your website for every one of your customer types. This way they always feel welcomed and that they have arrived in the right place for their needs. And because of the high level of aesthetic and product detail presenting to the architectural market is not a disadvantage to any other market. In short, your other customers are well provided for.</p>
         <p>Other markets typically incorporated into our work:-</p>
