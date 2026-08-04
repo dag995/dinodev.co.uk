@@ -1,6 +1,5 @@
 :root :where(body),
 body {
-	background-color: #F6F7F7;
   color:rgba(33,37,41);
 	font-weight: 400;
 	font-size: 1em;
@@ -33,7 +32,7 @@ h1 {
 }
 
 .globalWrap {
-  padding:100px 0 0;
+  padding:42px 0 0;
 }
 
 .container {
@@ -71,7 +70,7 @@ h5 {
 }
 
 h1 span {
-  color: var(--theme-red);
+  color: var(--secondary-color);
 }
 
 div {
@@ -159,13 +158,13 @@ select {
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   border-radius: 6px;
   color: #FFF;
-  background-color: var(--theme-red);
-  border-color: var(--theme-red);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .btn-outline-primary {
   background-color:transparent!important;
-  color:var(--theme-red)!important;
+  color:var(--secondary-color)!important;
 }
 .btn-outline-secondary {
   background-color:transparent!important;
@@ -261,7 +260,7 @@ table ul {
   position: relative;
 }
 .tidb-wrap {
-  background-color:#f6f7f7;
+  /* background-color:#e4d8bf; */
   width:100%;
 }
 .tidb-container {
@@ -376,7 +375,7 @@ table ul {
   font-size: 0.9em;
 }
 .tidb-wrap .cta-box {
-  border:solid 1px #133c63;
+  border:solid 1px var(--theme-color);
   padding:50px;
   max-width: 720px;
   background-color:#FFF;

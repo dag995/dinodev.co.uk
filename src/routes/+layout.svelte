@@ -9,18 +9,17 @@
 </script>
 
 <svelte:head>
-	<title>The UK Interior Design Bureau</title>
+	<title>DinoDev.co.uk</title>
 </svelte:head>
 
 <main 
 	class="{($page.url.pathname).replace('/', '') === '' ? 'home' : ($page.url.pathname).replace('/', '')}_page"
 	style="
 		min-height:100vh;
-		--theme-color: #062e4b; 
-		--theme-red: #DE1F32; 
-		--secondary-color: #416691; 
-		--background: #E6EEF4; 
-		--background-color: #FFF;"
+		--theme-color: #0b3e40; 
+		--secondary-color: #ffb757; 
+		--background: #e4d8bf; 
+		--background-color: #e4d8bf;"
 >
 
 	<Header />

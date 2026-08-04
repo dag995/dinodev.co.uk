@@ -555,7 +555,7 @@
     margin: 0; 
   }
   .settings_bar .group .dropdown li.selected {
-    background:#133C63;
+    background:var(--theme-color);
     color:#FFF;
     border-radius:8px;
   }
