@@ -9,7 +9,7 @@
 <div class="tidb-wrap">
   <div class="tidb-container">
     <div class="w-860" style="padding:80px 20px 0 20px;margin-bottom:20px;border-bottom:solid 1px #CCC;">
-      <h1>Contact DinoDev</h1>
+      <h1>Contact Edava</h1>
     </div>
 
     <div class="w-860" style="padding-right:20px;padding-left:20px;">
@@ -18,9 +18,9 @@
         <div class="column column-33">
           <h3 style="font-size:1.6em;">Contact Details</h3>
           <p>
-            <a href="tel:01174038844" title="0117 403 8844">0117 403 8844</a>
+            <a href="tel:+441172034220" title="0117 203 4220">0117 203 4220</a>
             <br />
-            <a href="mailto:contact@tidb.co.uk" title="contact@tidb.co.uk">contact@dinodev.co.uk</a>
+            <a href="mailto:contact@edava.co.uk" title="contact@edava.co.uk">contact@edava.co.uk</a>
           </p>
         </div>
         

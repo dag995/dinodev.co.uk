@@ -1,9 +1,8 @@
 <script>
   const services = [
-    { title: 'Industry Intelligence', header: 'Industry<br />Intelligence', color: '#5f4b4c', url: '/services/industry-intelligence' },
-    { title: 'Actionable Insights', header: 'Actionable<br />Insights', color: '#59856e', url: '/services/actionable-insights/' },
-    { title: 'Digital Strategy', header: 'Digital<br />Strategy', color: '#d6b777', url: '/services/digital-strategy/' },
-    { title: 'Digital Marketing', header: 'Digital<br />Marketing', color: '#416691', url: '/services/digital-marketing' }
+    { title: 'Consultancy solutions', header: 'Consultancy solutions', url: '/services/consultancy-solutions' },
+    { title: 'Market Insights', header: 'Market Insights', url: '/services/market-insights/' },
+    { title: 'Recruitment', header: 'Recruitment', url: '/services/recruitment' }
   ]
 </script>
 

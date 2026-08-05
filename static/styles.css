@@ -1,6 +1,7 @@
 :root :where(body),
 body {
   color:rgba(33,37,41);
+  background:#F6F7F7;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -255,7 +256,7 @@ table ul {
 .tidb-wrap h4, 
 .tidb-wrap h5 {
   width: 100%;
-  color: #133C63;
+  color: var(--theme-color);
   font-weight: 300;
   position: relative;
 }
@@ -322,12 +323,12 @@ table ul {
 .columns .column-50,
 .tidb-wrap .columns .column-50 {
   width:49.5%;
-  flex-basis:49.5;
+  flex-basis:49.5%;
 }
 .columns .column-25,
 .tidb-wrap .columns .column-25 {
-  width:24.5%;
-  flex-basis:24.5%;
+  width:23.5%;
+  flex-basis:23.5%;
 }
 .columns .column-33,
 .tidb-wrap .columns .column-33 {

@@ -9,14 +9,14 @@
 </script>
 
 <svelte:head>
-	<title>DinoDev.co.uk</title>
+	<title>Edava.co.uk</title>
 </svelte:head>
 
 <main 
 	class="{($page.url.pathname).replace('/', '') === '' ? 'home' : ($page.url.pathname).replace('/', '')}_page"
 	style="
 		min-height:100vh;
-		--theme-color: #0b3e40; 
+		--theme-color: #5C2E90; 
 		--secondary-color: #ffb757; 
 		--background: #e4d8bf; 
 		--background-color: #e4d8bf;"

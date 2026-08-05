@@ -54,7 +54,7 @@
 </script>
 
 <svelte:head>
-	<title>Builder • DinoDev.co.uk</title>
+	<title>Builder • Edava.co.uk</title>
 </svelte:head>
 
 <div class="wrap">
